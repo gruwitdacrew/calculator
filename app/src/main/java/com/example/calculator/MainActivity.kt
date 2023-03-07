@@ -5,7 +5,7 @@ import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-import com.example.calculator.Foo.Companion.calculate
+import com.example.calculator.Calculating.Companion.calculate
 
 import com.example.calculator.databinding.ActivityMainBinding
 
