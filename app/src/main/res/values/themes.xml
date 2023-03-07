@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CALCULATOR" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <!-- чтобы весь экран был в основном цвете -->
+        <item name="android:background">@color/mainTheme</item>
+        <item name="android:statusBarColor" tools:targetApi="21">@color/mainTheme</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/mainTheme</item>
+
+        <!-- чтобы не было видно глупой надписи, загораживающей половину рабочего пространства -->
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+</resources>
